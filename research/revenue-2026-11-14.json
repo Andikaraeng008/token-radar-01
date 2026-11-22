@@ -1,0 +1,3312 @@
+{
+ "source": "DefiLlama public API, /summary/fees/{slug}?dataType=dailyRevenue (and dailyFees for top-40 board rows)",
+ "as_of": "2026-11-14",
+ "method": "annualized_usd = mean(sum(30d ending as_of)*365/30, sum(90d ending as_of)*365/90); null means no revenue in the windows, never estimated",
+ "fetched_at_utc": "2026-11-22T00:10:32.901513+00:00",
+ "protocols": {
+  "3f": {
+   "slug": "3f",
+   "revenue": {
+    "ann30d_usd": 22480,
+    "ann90d_usd": 36285,
+    "annualized_usd": 29383,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "3jane-lending": {
+   "slug": "3jane-lending",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "9summits": {
+   "slug": "9summits",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 4,
+    "annualized_usd": 2,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "aave-v2": {
+   "slug": "aave-v2",
+   "revenue": {
+    "ann30d_usd": 1663974,
+    "ann90d_usd": 1564544,
+    "annualized_usd": 1614259,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "abstract": {
+   "slug": "abstract",
+   "revenue": {
+    "ann30d_usd": 417986,
+    "ann90d_usd": 1082505,
+    "annualized_usd": 750245,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "adrastea-validator": {
+   "slug": "adrastea-validator",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "aegis-yusd": {
+   "slug": "aegis-yusd",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "aftermath-aflp": {
+   "slug": "aftermath-aflp",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "agni-finance": {
+   "slug": "agni-finance",
+   "revenue": {
+    "ann30d_usd": null,
+    "ann90d_usd": null,
+    "annualized_usd": null,
+    "days30": 0,
+    "days90": 0
+   }
+  },
+  "agua": {
+   "slug": "agua",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "alphagrowth": {
+   "slug": "alphagrowth",
+   "revenue": {
+    "ann30d_usd": 8869,
+    "ann90d_usd": 10075,
+    "annualized_usd": 9472,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "anemoy-capital": {
+   "slug": "anemoy-capital",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "ankr": {
+   "slug": "ankr",
+   "revenue": {
+    "ann30d_usd": 85906,
+    "ann90d_usd": 95719,
+    "annualized_usd": 90813,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "antarctic": {
+   "slug": "antarctic",
+   "revenue": {
+    "ann30d_usd": 17797485,
+    "ann90d_usd": 13906865,
+    "annualized_usd": 15852175,
+    "days30": 30,
+    "days90": 88
+   }
+  },
+  "anthias-labs": {
+   "slug": "anthias-labs",
+   "revenue": {
+    "ann30d_usd": 31280,
+    "ann90d_usd": 42036,
+    "annualized_usd": 36658,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "apex-omni": {
+   "slug": "apex-omni",
+   "revenue": {
+    "ann30d_usd": 1987060,
+    "ann90d_usd": 2361789,
+    "annualized_usd": 2174425,
+    "days30": 30,
+    "days90": 88
+   }
+  },
+  "api3": {
+   "slug": "api3",
+   "revenue": {
+    "ann30d_usd": 96980,
+    "ann90d_usd": 72972,
+    "annualized_usd": 84976,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "aquarius-stellar": {
+   "slug": "aquarius-stellar",
+   "revenue": {
+    "ann30d_usd": 681090,
+    "ann90d_usd": 1005129,
+    "annualized_usd": 843109,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "arcus-perps": {
+   "slug": "arcus-perps",
+   "revenue": {
+    "ann30d_usd": 19738385,
+    "ann90d_usd": 13723769,
+    "annualized_usd": 16731077,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 22610034,
+    "ann90d_usd": 15387443,
+    "annualized_usd": 18998739,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "armitage-by-wintermute": {
+   "slug": "armitage-by-wintermute",
+   "revenue": {
+    "ann30d_usd": 231033,
+    "ann90d_usd": 185647,
+    "annualized_usd": 208340,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 6034557,
+    "ann90d_usd": 6173784,
+    "annualized_usd": 6104171,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "arrakis-modular": {
+   "slug": "arrakis-modular",
+   "revenue": {
+    "ann30d_usd": 1954526,
+    "ann90d_usd": 3296169,
+    "annualized_usd": 2625348,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "august-digital": {
+   "slug": "august-digital",
+   "revenue": {
+    "ann30d_usd": 26860,
+    "ann90d_usd": 20727,
+    "annualized_usd": 23794,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "autofinance": {
+   "slug": "autofinance",
+   "revenue": {
+    "ann30d_usd": 629,
+    "ann90d_usd": 472,
+    "annualized_usd": 550,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "avant-aveth": {
+   "slug": "avant-aveth",
+   "revenue": {
+    "ann30d_usd": 107030,
+    "ann90d_usd": 129697,
+    "annualized_usd": 118363,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "avant-avusd": {
+   "slug": "avant-avusd",
+   "revenue": {
+    "ann30d_usd": 817564,
+    "ann90d_usd": 941732,
+    "annualized_usd": 879648,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "axis": {
+   "slug": "axis",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "azverse-perps": {
+   "slug": "azverse-perps",
+   "revenue": {
+    "ann30d_usd": 38276163,
+    "ann90d_usd": 32529623,
+    "annualized_usd": 35402893,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "b14g": {
+   "slug": "b14g",
+   "revenue": {
+    "ann30d_usd": 131716,
+    "ann90d_usd": 137272,
+    "annualized_usd": 134494,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "beefy": {
+   "slug": "beefy",
+   "revenue": {
+    "ann30d_usd": 891403,
+    "ann90d_usd": 1079354,
+    "annualized_usd": 985378,
+    "days30": 30,
+    "days90": 89
+   }
+  },
+  "bend": {
+   "slug": "bend",
+   "revenue": {
+    "ann30d_usd": 3142,
+    "ann90d_usd": 3337,
+    "annualized_usd": 3240,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "benqi-lending": {
+   "slug": "benqi-lending",
+   "revenue": {
+    "ann30d_usd": 469889,
+    "ann90d_usd": 386462,
+    "annualized_usd": 428175,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "bima-cdp": {
+   "slug": "bima-cdp",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "binaryx-platform": {
+   "slug": "binaryx-platform",
+   "revenue": {
+    "ann30d_usd": 13461,
+    "ann90d_usd": 59817,
+    "annualized_usd": 36639,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "bisonfi": {
+   "slug": "bisonfi",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "bitfi-basis": {
+   "slug": "bitfi-basis",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 4290,
+    "ann90d_usd": 9006,
+    "annualized_usd": 6648,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "bitlayer-ybtc-family": {
+   "slug": "bitlayer-ybtc-family",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "bittensor-dtao": {
+   "slug": "bittensor-dtao",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response",
+   "fees": null
+  },
+  "bitway-earn": {
+   "slug": "bitway-earn",
+   "revenue": {
+    "ann30d_usd": 309666,
+    "ann90d_usd": 1056014,
+    "annualized_usd": 682840,
+    "days30": 16,
+    "days90": 76
+   }
+  },
+  "blazestake": {
+   "slug": "blazestake",
+   "revenue": {
+    "ann30d_usd": 221778,
+    "ann90d_usd": 256900,
+    "annualized_usd": 239339,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "block-analitica": {
+   "slug": "block-analitica",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 3561,
+    "annualized_usd": 1780,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "blur-bids": {
+   "slug": "blur-bids",
+   "revenue": {
+    "ann30d_usd": 136,
+    "ann90d_usd": 45,
+    "annualized_usd": 90,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "boros": {
+   "slug": "boros",
+   "revenue": {
+    "ann30d_usd": 728491,
+    "ann90d_usd": 526411,
+    "annualized_usd": 627451,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "bouncebit-prime": {
+   "slug": "bouncebit-prime",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "btcfi-cdp": {
+   "slug": "btcfi-cdp",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "bucket-cdp": {
+   "slug": "bucket-cdp",
+   "revenue": {
+    "ann30d_usd": null,
+    "ann90d_usd": null,
+    "annualized_usd": null,
+    "days30": 0,
+    "days90": 0
+   }
+  },
+  "bulk": {
+   "slug": "bulk",
+   "revenue": {
+    "ann30d_usd": 3758296,
+    "ann90d_usd": 2279617,
+    "annualized_usd": 3018956,
+    "days30": 30,
+    "days90": 71
+   }
+  },
+  "byreal": {
+   "slug": "byreal",
+   "revenue": {
+    "ann30d_usd": 251911,
+    "ann90d_usd": 503988,
+    "annualized_usd": 377949,
+    "days30": 25,
+    "days90": 85
+   }
+  },
+  "cap": {
+   "slug": "cap",
+   "revenue": {
+    "ann30d_usd": 1046,
+    "ann90d_usd": 4001,
+    "annualized_usd": 2524,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "chain-fusion": {
+   "slug": "chain-fusion",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "cian-yield-layer": {
+   "slug": "cian-yield-layer",
+   "revenue": {
+    "ann30d_usd": 1853190,
+    "ann90d_usd": 1483401,
+    "annualized_usd": 1668295,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 9341238,
+    "ann90d_usd": 7478088,
+    "annualized_usd": 8409663,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "circle-gateway": {
+   "slug": "circle-gateway",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response",
+   "fees": {
+    "ann30d_usd": 217236,
+    "ann90d_usd": 506965,
+    "annualized_usd": 362100,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "clearstar": {
+   "slug": "clearstar",
+   "revenue": {
+    "ann30d_usd": 607603,
+    "ann90d_usd": 553466,
+    "annualized_usd": 580535,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 5513775,
+    "ann90d_usd": 4945016,
+    "annualized_usd": 5229396,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "communityv3": {
+   "slug": "communityv3",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 73
+   }
+  },
+  "concentrator": {
+   "slug": "concentrator",
+   "revenue": {
+    "ann30d_usd": 94572,
+    "ann90d_usd": 77112,
+    "annualized_usd": 85842,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "concrete": {
+   "slug": "concrete",
+   "revenue": {
+    "ann30d_usd": 601680,
+    "ann90d_usd": 502885,
+    "annualized_usd": 552282,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "convex-finance": {
+   "slug": "convex-finance",
+   "revenue": {
+    "ann30d_usd": 7348508,
+    "ann90d_usd": 10870349,
+    "annualized_usd": 9109429,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "current": {
+   "slug": "current",
+   "revenue": {
+    "ann30d_usd": 622410,
+    "ann90d_usd": 509337,
+    "annualized_usd": 565874,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "curvance": {
+   "slug": "curvance",
+   "revenue": {
+    "ann30d_usd": 507082,
+    "ann90d_usd": 499612,
+    "annualized_usd": 503347,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "d2-finance": {
+   "slug": "d2-finance",
+   "revenue": {
+    "ann30d_usd": 187975,
+    "ann90d_usd": 664945,
+    "annualized_usd": 426460,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "damm-capital": {
+   "slug": "damm-capital",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "decibel": {
+   "slug": "decibel",
+   "revenue": {
+    "ann30d_usd": 5766002,
+    "ann90d_usd": 6383290,
+    "annualized_usd": 6074646,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "defa-by-invoicemate": {
+   "slug": "defa-by-invoicemate",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "defi-saver-asset-management": {
+   "slug": "defi-saver-asset-management",
+   "revenue": {
+    "ann30d_usd": 6818419,
+    "ann90d_usd": 3790493,
+    "annualized_usd": 5304456,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 6818419,
+    "ann90d_usd": 3790493,
+    "annualized_usd": 5304456,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "defindex": {
+   "slug": "defindex",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "dolomite": {
+   "slug": "dolomite",
+   "revenue": {
+    "ann30d_usd": 4175746,
+    "ann90d_usd": 3399845,
+    "annualized_usd": 3787796,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "doppler-finance": {
+   "slug": "doppler-finance",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "drakewell": {
+   "slug": "drakewell",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "ekubo": {
+   "slug": "ekubo",
+   "revenue": {
+    "ann30d_usd": 476046,
+    "ann90d_usd": 426869,
+    "annualized_usd": 451458,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "ember": {
+   "slug": "ember",
+   "revenue": {
+    "ann30d_usd": 25136,
+    "ann90d_usd": 28559,
+    "annualized_usd": 26848,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "enzyme-finance": {
+   "slug": "enzyme-finance",
+   "revenue": {
+    "ann30d_usd": 91174,
+    "ann90d_usd": 171364,
+    "annualized_usd": 131269,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "estate-protocol": {
+   "slug": "estate-protocol",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "exactly": {
+   "slug": "exactly",
+   "revenue": {
+    "ann30d_usd": 88857,
+    "ann90d_usd": 102775,
+    "annualized_usd": 95816,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "exponent-risk-tranching": {
+   "slug": "exponent-risk-tranching",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "exponent-strategy-vaults": {
+   "slug": "exponent-strategy-vaults",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "exponent-yield-exchange": {
+   "slug": "exponent-yield-exchange",
+   "revenue": {
+    "ann30d_usd": 269990,
+    "ann90d_usd": 2280698,
+    "annualized_usd": 1275344,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "extended-perps": {
+   "slug": "extended-perps",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response",
+   "fees": {
+    "ann30d_usd": 17694251,
+    "ann90d_usd": 19292988,
+    "annualized_usd": 18493619,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "fables": {
+   "slug": "fables",
+   "revenue": {
+    "ann30d_usd": 6396211,
+    "ann90d_usd": 2132070,
+    "annualized_usd": 4264141,
+    "days30": 29,
+    "days90": 88
+   }
+  },
+  "felix-cdp": {
+   "slug": "felix-cdp",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "felix-vaults": {
+   "slug": "felix-vaults",
+   "revenue": {
+    "ann30d_usd": 70287,
+    "ann90d_usd": 170836,
+    "annualized_usd": 120562,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "figure-markets-exchange": {
+   "slug": "figure-markets-exchange",
+   "revenue": {
+    "ann30d_usd": 24479,
+    "ann90d_usd": 85455,
+    "annualized_usd": 54967,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 24479,
+    "ann90d_usd": 85455,
+    "annualized_usd": 54967,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "figure-markets-prime": {
+   "slug": "figure-markets-prime",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response",
+   "fees": null
+  },
+  "fira": {
+   "slug": "fira",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "firelight": {
+   "slug": "firelight",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "flowdesk": {
+   "slug": "flowdesk",
+   "revenue": {
+    "ann30d_usd": 241472,
+    "ann90d_usd": 128707,
+    "annualized_usd": 185089,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "flux-finance": {
+   "slug": "flux-finance",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "fluxion-network": {
+   "slug": "fluxion-network",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "flying-tulip-ftusd": {
+   "slug": "flying-tulip-ftusd",
+   "revenue": {
+    "ann30d_usd": 27813,
+    "ann90d_usd": 24914,
+    "annualized_usd": 26364,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "flying-tulip-lend": {
+   "slug": "flying-tulip-lend",
+   "revenue": {
+    "ann30d_usd": 1230,
+    "ann90d_usd": 1606,
+    "annualized_usd": 1418,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "frankencoin": {
+   "slug": "frankencoin",
+   "revenue": {
+    "ann30d_usd": 588636,
+    "ann90d_usd": 272252,
+    "annualized_usd": 430444,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "fstswap": {
+   "slug": "fstswap",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "fx-protocol": {
+   "slug": "fx-protocol",
+   "revenue": {
+    "ann30d_usd": 2651725,
+    "ann90d_usd": 2512688,
+    "annualized_usd": 2582207,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "gains-network": {
+   "slug": "gains-network",
+   "revenue": {
+    "ann30d_usd": 1487874,
+    "ann90d_usd": 4559511,
+    "annualized_usd": 3023692,
+    "days30": 26,
+    "days90": 86
+   }
+  },
+  "galaxy-curation": {
+   "slug": "galaxy-curation",
+   "revenue": {
+    "ann30d_usd": 7641,
+    "ann90d_usd": 24018,
+    "annualized_usd": 15829,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 3847988,
+    "ann90d_usd": 2748645,
+    "annualized_usd": 3298316,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "gami-labs": {
+   "slug": "gami-labs",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response",
+   "fees": null
+  },
+  "gamma-research": {
+   "slug": "gamma-research",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "gauntlet": {
+   "slug": "gauntlet",
+   "revenue": {
+    "ann30d_usd": 825618,
+    "ann90d_usd": 587350,
+    "annualized_usd": 706484,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 50121070,
+    "ann90d_usd": 45601376,
+    "annualized_usd": 47861223,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "gearbox": {
+   "slug": "gearbox",
+   "revenue": {
+    "ann30d_usd": 925,
+    "ann90d_usd": 17198,
+    "annualized_usd": 9062,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "geth": {
+   "slug": "geth",
+   "revenue": {
+    "ann30d_usd": 79692,
+    "ann90d_usd": 85552,
+    "annualized_usd": 82622,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "gmx-solana": {
+   "slug": "gmx-solana",
+   "revenue": {
+    "ann30d_usd": 34734386,
+    "ann90d_usd": 30405271,
+    "annualized_usd": 32569828,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "goonfi": {
+   "slug": "goonfi",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "goose": {
+   "slug": "goose",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "granite": {
+   "slug": "granite",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "growihf": {
+   "slug": "growihf",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "hakutora": {
+   "slug": "hakutora",
+   "revenue": {
+    "ann30d_usd": 113576,
+    "ann90d_usd": 122948,
+    "annualized_usd": 118262,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "hegic": {
+   "slug": "hegic",
+   "revenue": {
+    "ann30d_usd": -66712,
+    "ann90d_usd": -561600,
+    "annualized_usd": -314156,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "hertzflow": {
+   "slug": "hertzflow",
+   "revenue": {
+    "ann30d_usd": 7801,
+    "ann90d_usd": 61906,
+    "annualized_usd": 34853,
+    "days30": 30,
+    "days90": 83
+   }
+  },
+  "hipo": {
+   "slug": "hipo",
+   "revenue": {
+    "ann30d_usd": 23786,
+    "ann90d_usd": 18380,
+    "annualized_usd": 21083,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "hive-protocol": {
+   "slug": "hive-protocol",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response",
+   "fees": null
+  },
+  "hydration-dex": {
+   "slug": "hydration-dex",
+   "revenue": {
+    "ann30d_usd": 298083,
+    "ann90d_usd": 301997,
+    "annualized_usd": 300040,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "hylo-protocol": {
+   "slug": "hylo-protocol",
+   "revenue": {
+    "ann30d_usd": 2082641,
+    "ann90d_usd": 2556833,
+    "annualized_usd": 2319737,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "hyperbeat-earn": {
+   "slug": "hyperbeat-earn",
+   "revenue": {
+    "ann30d_usd": 79243,
+    "ann90d_usd": 168886,
+    "annualized_usd": 124065,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "hyperithm": {
+   "slug": "hyperithm",
+   "revenue": {
+    "ann30d_usd": 364185,
+    "ann90d_usd": 316747,
+    "annualized_usd": 340466,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 5658254,
+    "ann90d_usd": 5081177,
+    "annualized_usd": 5369716,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "hyperlane": {
+   "slug": "hyperlane",
+   "revenue": {
+    "ann30d_usd": 614636,
+    "ann90d_usd": 383514,
+    "annualized_usd": 499075,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "icarus-cl": {
+   "slug": "icarus-cl",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "index-coop": {
+   "slug": "index-coop",
+   "revenue": {
+    "ann30d_usd": 289652,
+    "ann90d_usd": 329249,
+    "annualized_usd": 309450,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "infinifi": {
+   "slug": "infinifi",
+   "revenue": {
+    "ann30d_usd": 262666,
+    "ann90d_usd": 202709,
+    "annualized_usd": 232688,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "infrared-finance": {
+   "slug": "infrared-finance",
+   "revenue": {
+    "ann30d_usd": 139552,
+    "ann90d_usd": 144868,
+    "annualized_usd": 142210,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "inverse-finance-firm": {
+   "slug": "inverse-finance-firm",
+   "revenue": {
+    "ann30d_usd": 3417045,
+    "ann90d_usd": 3195157,
+    "annualized_usd": 3306101,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "ipor-fusion": {
+   "slug": "ipor-fusion",
+   "revenue": {
+    "ann30d_usd": 583623,
+    "ann90d_usd": 618196,
+    "annualized_usd": 600910,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "k3-capital": {
+   "slug": "k3-capital",
+   "revenue": {
+    "ann30d_usd": 570057,
+    "ann90d_usd": 850263,
+    "annualized_usd": 710160,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 5928172,
+    "ann90d_usd": 8756030,
+    "annualized_usd": 7342101,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "kaio": {
+   "slug": "kaio",
+   "revenue": {
+    "ann30d_usd": 443962,
+    "ann90d_usd": 493634,
+    "annualized_usd": 468798,
+    "days30": 26,
+    "days90": 86
+   }
+  },
+  "katana-dex": {
+   "slug": "katana-dex",
+   "revenue": {
+    "ann30d_usd": 43353,
+    "ann90d_usd": 63542,
+    "annualized_usd": 53447,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "katana-pre-launch": {
+   "slug": "katana-pre-launch",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "kava-mint": {
+   "slug": "kava-mint",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "keyrock": {
+   "slug": "keyrock",
+   "revenue": {
+    "ann30d_usd": 626158,
+    "ann90d_usd": 208719,
+    "annualized_usd": 417438,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 2224274,
+    "ann90d_usd": 992675,
+    "annualized_usd": 1608474,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "kinetic": {
+   "slug": "kinetic",
+   "revenue": {
+    "ann30d_usd": 158812,
+    "ann90d_usd": 183011,
+    "annualized_usd": 170911,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "kyros": {
+   "slug": "kyros",
+   "revenue": {
+    "ann30d_usd": 1830,
+    "ann90d_usd": 108774,
+    "annualized_usd": 55302,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "lagoon": {
+   "slug": "lagoon",
+   "revenue": {
+    "ann30d_usd": 35612,
+    "ann90d_usd": 36766,
+    "annualized_usd": 36189,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "lido": {
+   "slug": "lido",
+   "revenue": {
+    "ann30d_usd": 38520384,
+    "ann90d_usd": 35047422,
+    "annualized_usd": 36783903,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "lightning-network": {
+   "slug": "lightning-network",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response",
+   "fees": null
+  },
+  "liminal-basis": {
+   "slug": "liminal-basis",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "liqwid": {
+   "slug": "liqwid",
+   "revenue": {
+    "ann30d_usd": 148543,
+    "ann90d_usd": 185229,
+    "annualized_usd": 166886,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "lofty": {
+   "slug": "lofty",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response",
+   "fees": null
+  },
+  "looped-hype": {
+   "slug": "looped-hype",
+   "revenue": {
+    "ann30d_usd": 21243,
+    "ann90d_usd": 31090,
+    "annualized_usd": 26166,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "loopscale-curation": {
+   "slug": "loopscale-curation",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "loopscale-lending": {
+   "slug": "loopscale-lending",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "lulo": {
+   "slug": "lulo",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "makina": {
+   "slug": "makina",
+   "revenue": {
+    "ann30d_usd": 66427,
+    "ann90d_usd": 62215,
+    "annualized_usd": 64321,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "manifest-trade": {
+   "slug": "manifest-trade",
+   "revenue": {
+    "ann30d_usd": 256266,
+    "ann90d_usd": 85422,
+    "annualized_usd": 170844,
+    "days30": 16,
+    "days90": 16
+   }
+  },
+  "manta-cedefi": {
+   "slug": "manta-cedefi",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "marginfi-lending": {
+   "slug": "marginfi-lending",
+   "revenue": {
+    "ann30d_usd": 30684,
+    "ann90d_usd": 28105,
+    "annualized_usd": 29395,
+    "days30": 30,
+    "days90": 76
+   }
+  },
+  "mellow-core": {
+   "slug": "mellow-core",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response",
+   "fees": null
+  },
+  "metalx-swap": {
+   "slug": "metalx-swap",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "meth-protocol": {
+   "slug": "meth-protocol",
+   "revenue": {
+    "ann30d_usd": 1341338,
+    "ann90d_usd": 1321811,
+    "annualized_usd": 1331575,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "mev-capital": {
+   "slug": "mev-capital",
+   "revenue": {
+    "ann30d_usd": 23709,
+    "ann90d_usd": 101372,
+    "annualized_usd": 62541,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "mezo-earn": {
+   "slug": "mezo-earn",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "mezzanine": {
+   "slug": "mezzanine",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "monarq": {
+   "slug": "monarq",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "monolith-market": {
+   "slug": "monolith-market",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "morpheusai": {
+   "slug": "morpheusai",
+   "revenue": {
+    "ann30d_usd": 465594,
+    "ann90d_usd": 517477,
+    "annualized_usd": 491535,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "mystic-finance-lending": {
+   "slug": "mystic-finance-lending",
+   "revenue": {
+    "ann30d_usd": 35965,
+    "ann90d_usd": 83467,
+    "annualized_usd": 59716,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "nado-spot": {
+   "slug": "nado-spot",
+   "revenue": {
+    "ann30d_usd": 44786,
+    "ann90d_usd": 38025,
+    "annualized_usd": 41405,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "native-credit-pool": {
+   "slug": "native-credit-pool",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "nemo-trading": {
+   "slug": "nemo-trading",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "neutral-trade": {
+   "slug": "neutral-trade",
+   "revenue": {
+    "ann30d_usd": 161488,
+    "ann90d_usd": 129839,
+    "annualized_usd": 145663,
+    "days30": 30,
+    "days90": 83
+   }
+  },
+  "noble": {
+   "slug": "noble",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 50
+   },
+   "fees": {
+    "ann30d_usd": 5506,
+    "ann90d_usd": 4244,
+    "annualized_usd": 4875,
+    "days30": 30,
+    "days90": 50
+   }
+  },
+  "nonce-capital": {
+   "slug": "nonce-capital",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response",
+   "fees": null
+  },
+  "noon": {
+   "slug": "noon",
+   "revenue": {
+    "ann30d_usd": 635136,
+    "ann90d_usd": 618720,
+    "annualized_usd": 626928,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "nucleus": {
+   "slug": "nucleus",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "nuva": {
+   "slug": "nuva",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "obol": {
+   "slug": "obol",
+   "revenue": {
+    "ann30d_usd": 22618,
+    "ann90d_usd": 23790,
+    "annualized_usd": 23204,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "onre": {
+   "slug": "onre",
+   "revenue": {
+    "ann30d_usd": 215034,
+    "ann90d_usd": 441633,
+    "annualized_usd": 328334,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 30004119,
+    "ann90d_usd": 31523671,
+    "annualized_usd": 30763895,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "opentrade": {
+   "slug": "opentrade",
+   "revenue": {
+    "ann30d_usd": 21670,
+    "ann90d_usd": 29018,
+    "annualized_usd": 25344,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 155636,
+    "ann90d_usd": 196471,
+    "annualized_usd": 176054,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "origami-finance": {
+   "slug": "origami-finance",
+   "revenue": {
+    "ann30d_usd": 3605,
+    "ann90d_usd": 4033,
+    "annualized_usd": 3819,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "osmosis-dex": {
+   "slug": "osmosis-dex",
+   "revenue": {
+    "ann30d_usd": 758239,
+    "ann90d_usd": 641398,
+    "annualized_usd": 699819,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "paimon": {
+   "slug": "paimon",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "pangolins": {
+   "slug": "pangolins",
+   "revenue": {
+    "ann30d_usd": 46160,
+    "ann90d_usd": 58477,
+    "annualized_usd": 52319,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "perena-vaults": {
+   "slug": "perena-vaults",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "phoenix-perp": {
+   "slug": "phoenix-perp",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "piku-finance": {
+   "slug": "piku-finance",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "pinksale": {
+   "slug": "pinksale",
+   "revenue": {
+    "ann30d_usd": 118718,
+    "ann90d_usd": 287996,
+    "annualized_usd": 203357,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "plasma-one": {
+   "slug": "plasma-one",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "plasma-saving-vaults": {
+   "slug": "plasma-saving-vaults",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "plume-vaults": {
+   "slug": "plume-vaults",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 13115204,
+    "ann90d_usd": 11838065,
+    "annualized_usd": 12476635,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "polymarket-international": {
+   "slug": "polymarket-international",
+   "revenue": {
+    "ann30d_usd": 220908366,
+    "ann90d_usd": 204966492,
+    "annualized_usd": 212937429,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 434245002,
+    "ann90d_usd": 411426228,
+    "annualized_usd": 422835615,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "predict-fun": {
+   "slug": "predict-fun",
+   "revenue": {
+    "ann30d_usd": 25346683,
+    "ann90d_usd": 18518859,
+    "annualized_usd": 21932771,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "project-0": {
+   "slug": "project-0",
+   "revenue": {
+    "ann30d_usd": 30672,
+    "ann90d_usd": 33041,
+    "annualized_usd": 31856,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "project-x": {
+   "slug": "project-x",
+   "revenue": {
+    "ann30d_usd": 2674294,
+    "ann90d_usd": 3464264,
+    "annualized_usd": 3069279,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "qearn": {
+   "slug": "qearn",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "quickswap-dex": {
+   "slug": "quickswap-dex",
+   "revenue": {
+    "ann30d_usd": 415078,
+    "ann90d_usd": 1453815,
+    "annualized_usd": 934447,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "r25": {
+   "slug": "r25",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response",
+   "fees": null
+  },
+  "radpie": {
+   "slug": "radpie",
+   "revenue": {
+    "ann30d_usd": 45,
+    "ann90d_usd": 15,
+    "annualized_usd": 30,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "railgun": {
+   "slug": "railgun",
+   "revenue": {
+    "ann30d_usd": 4283737,
+    "ann90d_usd": 4392183,
+    "annualized_usd": 4337960,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "re": {
+   "slug": "re",
+   "revenue": {
+    "ann30d_usd": 41771,
+    "ann90d_usd": 79069,
+    "annualized_usd": 60420,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "re7-labs": {
+   "slug": "re7-labs",
+   "revenue": {
+    "ann30d_usd": 117676,
+    "ann90d_usd": 142666,
+    "annualized_usd": 130171,
+    "days30": 30,
+    "days90": 87
+   },
+   "fees": {
+    "ann30d_usd": 794301,
+    "ann90d_usd": 881191,
+    "annualized_usd": 837746,
+    "days30": 30,
+    "days90": 87
+   }
+  },
+  "renzo": {
+   "slug": "renzo",
+   "revenue": {
+    "ann30d_usd": 72436,
+    "ann90d_usd": 304116,
+    "annualized_usd": 188276,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "reserve-protocol": {
+   "slug": "reserve-protocol",
+   "revenue": {
+    "ann30d_usd": 419005,
+    "ann90d_usd": 449327,
+    "annualized_usd": 434166,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "resupply": {
+   "slug": "resupply",
+   "revenue": {
+    "ann30d_usd": 1063196,
+    "ann90d_usd": 1039289,
+    "annualized_usd": 1051243,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "reti-pooling": {
+   "slug": "reti-pooling",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "reya-perps": {
+   "slug": "reya-perps",
+   "revenue": {
+    "ann30d_usd": 45516,
+    "ann90d_usd": 83658,
+    "annualized_usd": 64587,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "rif-on-chain": {
+   "slug": "rif-on-chain",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "risex": {
+   "slug": "risex",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "rockawayx": {
+   "slug": "rockawayx",
+   "revenue": {
+    "ann30d_usd": 889371,
+    "ann90d_usd": 651330,
+    "annualized_usd": 770351,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 12234228,
+    "ann90d_usd": 9497434,
+    "annualized_usd": 10865831,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "rocket-pool": {
+   "slug": "rocket-pool",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "rocksolid-network": {
+   "slug": "rocksolid-network",
+   "revenue": {
+    "ann30d_usd": 7274,
+    "ann90d_usd": 8072,
+    "annualized_usd": 7673,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "saturn": {
+   "slug": "saturn",
+   "revenue": {
+    "ann30d_usd": 3691834,
+    "ann90d_usd": 3026681,
+    "annualized_usd": 3359257,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 8073963,
+    "ann90d_usd": 24389232,
+    "annualized_usd": 16231597,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "sentora-curator": {
+   "slug": "sentora-curator",
+   "revenue": {
+    "ann30d_usd": 8873162,
+    "ann90d_usd": 8702168,
+    "annualized_usd": 8787665,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 75259837,
+    "ann90d_usd": 73016222,
+    "annualized_usd": 74138029,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "set-protocol": {
+   "slug": "set-protocol",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "sharpbyte-capital": {
+   "slug": "sharpbyte-capital",
+   "revenue": {
+    "ann30d_usd": 60298,
+    "ann90d_usd": 32314,
+    "annualized_usd": 46306,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "shift-defi": {
+   "slug": "shift-defi",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "snuggle": {
+   "slug": "snuggle",
+   "revenue": {
+    "ann30d_usd": 1484504,
+    "ann90d_usd": 2694207,
+    "annualized_usd": 2089355,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "solv-strategies": {
+   "slug": "solv-strategies",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "ssv-network": {
+   "slug": "ssv-network",
+   "revenue": {
+    "ann30d_usd": 3251250,
+    "ann90d_usd": 3450041,
+    "annualized_usd": 3350645,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "stablehodl": {
+   "slug": "stablehodl",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "stader": {
+   "slug": "stader",
+   "revenue": {
+    "ann30d_usd": 256558,
+    "ann90d_usd": 296141,
+    "annualized_usd": 276350,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "steakhouse-financial": {
+   "slug": "steakhouse-financial",
+   "revenue": {
+    "ann30d_usd": 6710878,
+    "ann90d_usd": 5613980,
+    "annualized_usd": 6162429,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 91043471,
+    "ann90d_usd": 92974791,
+    "annualized_usd": 92009131,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "steer-protocol": {
+   "slug": "steer-protocol",
+   "revenue": {
+    "ann30d_usd": 43583,
+    "ann90d_usd": 67331,
+    "annualized_usd": 55457,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "stellar-amm": {
+   "slug": "stellar-amm",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "stellar-defi-hub": {
+   "slug": "stellar-defi-hub",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "stellar-dex": {
+   "slug": "stellar-dex",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "ston.fi": {
+   "slug": "ston.fi",
+   "revenue": {
+    "ann30d_usd": 663071,
+    "ann90d_usd": 729010,
+    "annualized_usd": 696041,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "strata-markets": {
+   "slug": "strata-markets",
+   "revenue": {
+    "ann30d_usd": 80524,
+    "ann90d_usd": 121478,
+    "annualized_usd": 101001,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "strato-cdp": {
+   "slug": "strato-cdp",
+   "revenue": {
+    "ann30d_usd": 197166,
+    "ann90d_usd": 147891,
+    "annualized_usd": 172529,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "streamflow": {
+   "slug": "streamflow",
+   "revenue": {
+    "ann30d_usd": 2310839,
+    "ann90d_usd": 2110653,
+    "annualized_usd": 2210746,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "stusdt": {
+   "slug": "stusdt",
+   "revenue": {
+    "ann30d_usd": 111266,
+    "ann90d_usd": 67043,
+    "annualized_usd": 89154,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "subfrost": {
+   "slug": "subfrost",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "superearn": {
+   "slug": "superearn",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "sushiswap": {
+   "slug": "sushiswap",
+   "revenue": {
+    "ann30d_usd": 172949,
+    "ann90d_usd": 136019,
+    "annualized_usd": 154484,
+    "days30": 30,
+    "days90": 76
+   }
+  },
+  "swan-dao": {
+   "slug": "swan-dao",
+   "revenue": {
+    "ann30d_usd": 39870,
+    "ann90d_usd": 13290,
+    "annualized_usd": 26580,
+    "days30": 24,
+    "days90": 24
+   }
+  },
+  "sygnum-fiusd-liquidity-fund": {
+   "slug": "sygnum-fiusd-liquidity-fund",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "symbiosis": {
+   "slug": "symbiosis",
+   "revenue": {
+    "ann30d_usd": 1384141,
+    "ann90d_usd": 1192013,
+    "annualized_usd": 1288077,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "symbiotic": {
+   "slug": "symbiotic",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 1656163,
+    "ann90d_usd": 2657987,
+    "annualized_usd": 2157075,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "synapse-cross-chain-bridge": {
+   "slug": "synapse-cross-chain-bridge",
+   "revenue": {
+    "ann30d_usd": 13965,
+    "ann90d_usd": 13597,
+    "annualized_usd": 13781,
+    "days30": 30,
+    "days90": 88
+   }
+  },
+  "syncswap": {
+   "slug": "syncswap",
+   "revenue": {
+    "ann30d_usd": 48893,
+    "ann90d_usd": 56546,
+    "annualized_usd": 52719,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "syntetika": {
+   "slug": "syntetika",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "syntropia": {
+   "slug": "syntropia",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "t3tris-finance": {
+   "slug": "t3tris-finance",
+   "revenue": {
+    "ann30d_usd": 9940,
+    "ann90d_usd": 3318,
+    "annualized_usd": 6629,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "tau-labs": {
+   "slug": "tau-labs",
+   "revenue": {
+    "ann30d_usd": 23227,
+    "ann90d_usd": 22796,
+    "annualized_usd": 23011,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "tectonic": {
+   "slug": "tectonic",
+   "revenue": {
+    "ann30d_usd": 1394,
+    "ann90d_usd": 55562,
+    "annualized_usd": 28478,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "templar-lending": {
+   "slug": "templar-lending",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "temple": {
+   "slug": "temple",
+   "revenue": {
+    "ann30d_usd": 2697447,
+    "ann90d_usd": 2075037,
+    "annualized_usd": 2386242,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "tempo-stablecoin-dex": {
+   "slug": "tempo-stablecoin-dex",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "tessera-v": {
+   "slug": "tessera-v",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "theo-network-thbill": {
+   "slug": "theo-network-thbill",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "theo-network-thusd": {
+   "slug": "theo-network-thusd",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response",
+   "fees": null
+  },
+  "thorchain-dex": {
+   "slug": "thorchain-dex",
+   "revenue": {
+    "ann30d_usd": 12933520,
+    "ann90d_usd": 9338950,
+    "annualized_usd": 11136235,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "tori-finance": {
+   "slug": "tori-finance",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response",
+   "fees": null
+  },
+  "tornado-cash": {
+   "slug": "tornado-cash",
+   "revenue": {
+    "ann30d_usd": 2590977,
+    "ann90d_usd": 3801074,
+    "annualized_usd": 3196025,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "treehouse-protocol": {
+   "slug": "treehouse-protocol",
+   "revenue": {
+    "ann30d_usd": 78767,
+    "ann90d_usd": 77572,
+    "annualized_usd": 78169,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "tulipa-capital": {
+   "slug": "tulipa-capital",
+   "revenue": {
+    "ann30d_usd": 965,
+    "ann90d_usd": 929,
+    "annualized_usd": 947,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": -4660,
+    "ann90d_usd": 4514,
+    "annualized_usd": -73,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "turboflow-perps": {
+   "slug": "turboflow-perps",
+   "revenue": {
+    "ann30d_usd": null,
+    "ann90d_usd": null,
+    "annualized_usd": null,
+    "days30": 0,
+    "days90": 0
+   }
+  },
+  "tydro": {
+   "slug": "tydro",
+   "revenue": {
+    "ann30d_usd": 375707,
+    "ann90d_usd": 325515,
+    "annualized_usd": 350611,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "ultrayield-curator": {
+   "slug": "ultrayield-curator",
+   "revenue": {
+    "ann30d_usd": 6,
+    "ann90d_usd": 37,
+    "annualized_usd": 22,
+    "days30": 30,
+    "days90": 87
+   }
+  },
+  "ultrayield-vaults": {
+   "slug": "ultrayield-vaults",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 65696,
+    "annualized_usd": 32848,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "upshift": {
+   "slug": "upshift",
+   "revenue": {
+    "ann30d_usd": 2914488,
+    "ann90d_usd": 2666126,
+    "annualized_usd": 2790307,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 26522032,
+    "ann90d_usd": 25808205,
+    "annualized_usd": 26165118,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "usd-ai": {
+   "slug": "usd-ai",
+   "revenue": {
+    "ann30d_usd": 3310586,
+    "ann90d_usd": 3601711,
+    "annualized_usd": 3456149,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "usdcx": {
+   "slug": "usdcx",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "usdd": {
+   "slug": "usdd",
+   "revenue": {
+    "ann30d_usd": 2215002,
+    "ann90d_usd": 3143169,
+    "annualized_usd": 2679086,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 2215002,
+    "ann90d_usd": 3143169,
+    "annualized_usd": 2679086,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "usual-usd0": {
+   "slug": "usual-usd0",
+   "revenue": {
+    "ann30d_usd": 6125187,
+    "ann90d_usd": 4546103,
+    "annualized_usd": 5335645,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "valantis-sthype-restaking": {
+   "slug": "valantis-sthype-restaking",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 32
+   }
+  },
+  "valos": {
+   "slug": "valos",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "vault-street": {
+   "slug": "vault-street",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "veda": {
+   "slug": "veda",
+   "revenue": {
+    "ann30d_usd": 13645647,
+    "ann90d_usd": 12210763,
+    "annualized_usd": 12928205,
+    "days30": 30,
+    "days90": 90
+   },
+   "fees": {
+    "ann30d_usd": 62863451,
+    "ann90d_usd": 57430820,
+    "annualized_usd": 60147135,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "vena-finance": {
+   "slug": "vena-finance",
+   "revenue": {
+    "ann30d_usd": 41959,
+    "ann90d_usd": 46885,
+    "annualized_usd": 44422,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "veno-finance": {
+   "slug": "veno-finance",
+   "revenue": {
+    "ann30d_usd": 64045,
+    "ann90d_usd": 77865,
+    "annualized_usd": 70955,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "veranta": {
+   "slug": "veranta",
+   "revenue": {
+    "ann30d_usd": 3927181,
+    "ann90d_usd": 2936599,
+    "annualized_usd": 3431890,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "vesu": {
+   "slug": "vesu",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "vfat.io": {
+   "slug": "vfat.io",
+   "revenue": {
+    "ann30d_usd": 989101,
+    "ann90d_usd": 1167002,
+    "annualized_usd": 1078052,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "vishwa": {
+   "slug": "vishwa",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "waterline": {
+   "slug": "waterline",
+   "revenue": {
+    "ann30d_usd": 78475,
+    "ann90d_usd": 75498,
+    "annualized_usd": 76987,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "waterneuron": {
+   "slug": "waterneuron",
+   "revenue": {
+    "ann30d_usd": 29310,
+    "ann90d_usd": 32132,
+    "annualized_usd": 30721,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "xion-finance": {
+   "slug": "xion-finance",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "xrpl-dex": {
+   "slug": "xrpl-dex",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 6,
+    "days90": 6
+   }
+  },
+  "y10k-capital": {
+   "slug": "y10k-capital",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "yield-basis": {
+   "slug": "yield-basis",
+   "revenue": {
+    "ann30d_usd": 1795058,
+    "ann90d_usd": 776728,
+    "annualized_usd": 1285893,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "yield-yak-aggregator": {
+   "slug": "yield-yak-aggregator",
+   "revenue": {
+    "ann30d_usd": 7397,
+    "ann90d_usd": 34614,
+    "annualized_usd": 21006,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "yieldfi": {
+   "slug": "yieldfi",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "yieldnest": {
+   "slug": "yieldnest",
+   "revenue": {
+    "ann30d_usd": 23579,
+    "ann90d_usd": 40249,
+    "annualized_usd": 31914,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "yuzu-money": {
+   "slug": "yuzu-money",
+   "revenue": {
+    "ann30d_usd": 0,
+    "ann90d_usd": 0,
+    "annualized_usd": 0,
+    "days30": 30,
+    "days90": 90
+   }
+  },
+  "zoo-finance": {
+   "slug": "zoo-finance",
+   "revenue": null,
+   "revenue_error": "Remote end closed connection without response"
+  },
+  "zyfai": {
+   "slug": "zyfai",
+   "revenue": {
+    "ann30d_usd": 81578,
+    "ann90d_usd": 77815,
+    "annualized_usd": 79696,
+    "days30": 30,
+    "days90": 90
+   }
+  }
+ },
+ "audits": {
+  "steakhouse-financial": {
+   "count": 0,
+   "links": 0
+  },
+  "sentora-curator": {
+   "count": 0,
+   "links": 0
+  },
+  "gauntlet": {
+   "count": 0,
+   "links": 0
+  },
+  "polymarket-international": {
+   "count": 2,
+   "links": 1
+  },
+  "nonce-capital": {
+   "count": 0,
+   "links": 0
+  },
+  "usdd": {
+   "count": 2,
+   "links": 1
+  },
+  "veda": {
+   "count": 2,
+   "links": 5
+  },
+  "rockawayx": {
+   "count": 0,
+   "links": 0
+  },
+  "hive-protocol": {
+   "count": 0,
+   "links": 0
+  },
+  "hyperithm": {
+   "count": 0,
+   "links": 0
+  },
+  "k3-capital": {
+   "count": 2,
+   "links": 1
+  },
+  "bittensor-dtao": {
+   "count": 0,
+   "links": 0
+  },
+  "clearstar": {
+   "count": 0,
+   "links": 0
+  },
+  "bitfi-basis": {
+   "count": 0,
+   "links": 0
+  },
+  "onre": {
+   "count": 2,
+   "links": 1
+  },
+  "opentrade": {
+   "count": 2,
+   "links": 1
+  },
+  "upshift": {
+   "count": 2,
+   "links": 1
+  },
+  "galaxy-curation": {
+   "count": 0,
+   "links": 0
+  },
+  "plume-vaults": {
+   "count": 2,
+   "links": 2
+  },
+  "extended-perps": {
+   "count": 0,
+   "links": 0
+  },
+  "symbiotic": {
+   "count": 2,
+   "links": 4
+  },
+  "armitage-by-wintermute": {
+   "count": 0,
+   "links": 0
+  },
+  "r25": {
+   "count": 0,
+   "links": 0
+  },
+  "defi-saver-asset-management": {
+   "count": 2,
+   "links": 1
+  },
+  "noble": {
+   "count": 0,
+   "links": 0
+  },
+  "lightning-network": {
+   "count": 2,
+   "links": 0
+  },
+  "cian-yield-layer": {
+   "count": 0,
+   "links": 0
+  },
+  "keyrock": {
+   "count": 0,
+   "links": 0
+  },
+  "circle-gateway": {
+   "count": 0,
+   "links": 0
+  },
+  "lofty": {
+   "count": 0,
+   "links": 0
+  },
+  "figure-markets-prime": {
+   "count": 0,
+   "links": 0
+  },
+  "gami-labs": {
+   "count": 0,
+   "links": 0
+  },
+  "theo-network-thusd": {
+   "count": 2,
+   "links": 2
+  },
+  "tulipa-capital": {
+   "count": 0,
+   "links": 0
+  },
+  "arcus-perps": {
+   "count": 0,
+   "links": 0
+  },
+  "tori-finance": {
+   "count": 2,
+   "links": 1
+  },
+  "saturn": {
+   "count": 2,
+   "links": 1
+  },
+  "figure-markets-exchange": {
+   "count": 0,
+   "links": 0
+  },
+  "re7-labs": {
+   "count": 0,
+   "links": 0
+  },
+  "mellow-core": {
+   "count": 2,
+   "links": 7
+  },
+  "azverse-perps": {
+   "count": 0,
+   "links": 0
+  },
+  "b14g": {
+   "count": 2,
+   "links": 1
+  },
+  "valos": {
+   "count": 0,
+   "links": 0
+  },
+  "axis": {
+   "count": 2,
+   "links": 1
+  },
+  "ember": {
+   "count": 2,
+   "links": 1
+  },
+  "ultrayield-curator": {
+   "count": 0,
+   "links": 0
+  },
+  "curvance": {
+   "count": 2,
+   "links": 2
+  },
+  "lagoon": {
+   "count": 2,
+   "links": 1
+  },
+  "doppler-finance": {
+   "count": 0,
+   "links": 0
+  },
+  "apex-omni": {
+   "count": 0,
+   "links": 0
+  },
+  "tydro": {
+   "count": 0,
+   "links": 0
+  },
+  "nado-spot": {
+   "count": 0,
+   "links": 0
+  },
+  "decibel": {
+   "count": 0,
+   "links": 0
+  },
+  "aegis-yusd": {
+   "count": 0,
+   "links": 0
+  },
+  "august-digital": {
+   "count": 2,
+   "links": 1
+  },
+  "y10k-capital": {
+   "count": 0,
+   "links": 0
+  },
+  "manta-cedefi": {
+   "count": 0,
+   "links": 0
+  },
+  "xion-finance": {
+   "count": 0,
+   "links": 0
+  },
+  "liminal-basis": {
+   "count": 2,
+   "links": 1
+  },
+  "gmx-solana": {
+   "count": 2,
+   "links": 1
+  },
+  "avant-avusd": {
+   "count": 2,
+   "links": 1
+  },
+  "project-x": {
+   "count": 0,
+   "links": 0
+  },
+  "phoenix-perp": {
+   "count": 0,
+   "links": 0
+  },
+  "flowdesk": {
+   "count": 0,
+   "links": 0
+  },
+  "gamma-research": {
+   "count": 0,
+   "links": 0
+  },
+  "waterline": {
+   "count": 0,
+   "links": 0
+  },
+  "infinifi": {
+   "count": 2,
+   "links": 3
+  },
+  "loopscale-lending": {
+   "count": 2,
+   "links": 1
+  },
+  "risex": {
+   "count": 0,
+   "links": 0
+  },
+  "xrpl-dex": {
+   "count": 0,
+   "links": 0
+  },
+  "hakutora": {
+   "count": 0,
+   "links": 0
+  },
+  "drakewell": {
+   "count": 0,
+   "links": 0
+  },
+  "ipor-fusion": {
+   "count": 2,
+   "links": 2
+  },
+  "nemo-trading": {
+   "count": 0,
+   "links": 0
+  },
+  "usdcx": {
+   "count": 2,
+   "links": 1
+  },
+  "9summits": {
+   "count": 0,
+   "links": 0
+  },
+  "flux-finance": {
+   "count": 0,
+   "links": 0
+  },
+  "shift-defi": {
+   "count": 2,
+   "links": 4
+  },
+  "firelight": {
+   "count": 2,
+   "links": 1
+  },
+  "vishwa": {
+   "count": 2,
+   "links": 1
+  },
+  "stellar-defi-hub": {
+   "count": 2,
+   "links": 2
+  },
+  "yuzu-money": {
+   "count": 2,
+   "links": 3
+  },
+  "reti-pooling": {
+   "count": 2,
+   "links": 1
+  },
+  "predict-fun": {
+   "count": 0,
+   "links": 0
+  },
+  "exponent-yield-exchange": {
+   "count": 2,
+   "links": 1
+  },
+  "solv-strategies": {
+   "count": 0,
+   "links": 0
+  },
+  "project-0": {
+   "count": 0,
+   "links": 0
+  },
+  "current": {
+   "count": 2,
+   "links": 1
+  },
+  "3f": {
+   "count": 0,
+   "links": 0
+  },
+  "syntetika": {
+   "count": 0,
+   "links": 0
+  },
+  "reya-perps": {
+   "count": 2,
+   "links": 1
+  },
+  "agni-finance": {
+   "count": 0,
+   "links": 0
+  },
+  "noon": {
+   "count": 2,
+   "links": 1
+  },
+  "arrakis-modular": {
+   "count": 2,
+   "links": 1
+  },
+  "anemoy-capital": {
+   "count": 0,
+   "links": 0
+  },
+  "plasma-one": {
+   "count": 0,
+   "links": 0
+  },
+  "origami-finance": {
+   "count": 2,
+   "links": 1
+  },
+  "bitlayer-ybtc-family": {
+   "count": 0,
+   "links": 0
+  },
+  "marginfi-lending": {
+   "count": 0,
+   "links": 0
+  },
+  "tau-labs": {
+   "count": 0,
+   "links": 0
+  },
+  "bisonfi": {
+   "count": 0,
+   "links": 0
+  },
+  "tempo-stablecoin-dex": {
+   "count": 0,
+   "links": 0
+  },
+  "mezo-earn": {
+   "count": 0,
+   "links": 0
+  },
+  "mystic-finance-lending": {
+   "count": 0,
+   "links": 0
+  },
+  "communityv3": {
+   "count": 0,
+   "links": 0
+  },
+  "fstswap": {
+   "count": 2,
+   "links": 1
+  },
+  "chain-fusion": {
+   "count": 2,
+   "links": 1
+  },
+  "sharpbyte-capital": {
+   "count": 0,
+   "links": 0
+  },
+  "abstract": {
+   "count": 0,
+   "links": 0
+  },
+  "theo-network-thbill": {
+   "count": 0,
+   "links": 0
+  },
+  "makina": {
+   "count": 2,
+   "links": 2
+  },
+  "mev-capital": {
+   "count": 0,
+   "links": 0
+  },
+  "manifest-trade": {
+   "count": 0,
+   "links": 0
+  },
+  "bouncebit-prime": {
+   "count": 0,
+   "links": 0
+  },
+  "sygnum-fiusd-liquidity-fund": {
+   "count": 0,
+   "links": 0
+  },
+  "stellar-dex": {
+   "count": 0,
+   "links": 0
+  },
+  "antarctic": {
+   "count": 0,
+   "links": 0
+  },
+  "estate-protocol": {
+   "count": 0,
+   "links": 0
+  },
+  "block-analitica": {
+   "count": 0,
+   "links": 0
+  },
+  "felix-vaults": {
+   "count": 0,
+   "links": 0
+  },
+  "templar-lending": {
+   "count": 2,
+   "links": 2
+  },
+  "vfat.io": {
+   "count": 2,
+   "links": 3
+  },
+  "plasma-saving-vaults": {
+   "count": 0,
+   "links": 0
+  },
+  "pangolins": {
+   "count": 0,
+   "links": 0
+  },
+  "zoo-finance": {
+   "count": 0,
+   "links": 0
+  },
+  "felix-cdp": {
+   "count": 2,
+   "links": 1
+  },
+  "bulk": {
+   "count": 0,
+   "links": 0
+  },
+  "turboflow-perps": {
+   "count": 2,
+   "links": 1
+  },
+  "native-credit-pool": {
+   "count": 0,
+   "links": 0
+  },
+  "paimon": {
+   "count": 2,
+   "links": 1
+  },
+  "lulo": {
+   "count": 2,
+   "links": 1
+  },
+  "anthias-labs": {
+   "count": 0,
+   "links": 0
+  },
+  "d2-finance": {
+   "count": 2,
+   "links": 1
+  },
+  "hertzflow": {
+   "count": 2,
+   "links": 2
+  },
+  "nuva": {
+   "count": 2,
+   "links": 1
+  },
+  "metalx-swap": {
+   "count": 2,
+   "links": 1
+  },
+  "binaryx-platform": {
+   "count": 2,
+   "links": 1
+  },
+  "fira": {
+   "count": 2,
+   "links": 1
+  },
+  "hylo-protocol": {
+   "count": 2,
+   "links": 1
+  },
+  "alphagrowth": {
+   "count": 0,
+   "links": 0
+  },
+  "bucket-cdp": {
+   "count": 2,
+   "links": 1
+  },
+  "katana-dex": {
+   "count": 0,
+   "links": 0
+  },
+  "3jane-lending": {
+   "count": 2,
+   "links": 1
+  },
+  "syncswap": {
+   "count": 0,
+   "links": 0
+  },
+  "tessera-v": {
+   "count": 0,
+   "links": 0
+  },
+  "neutral-trade": {
+   "count": 0,
+   "links": 0
+  },
+  "byreal": {
+   "count": 0,
+   "links": 0
+  },
+  "loopscale-curation": {
+   "count": 0,
+   "links": 0
+  },
+  "goose": {
+   "count": 2,
+   "links": 1
+  },
+  "avant-aveth": {
+   "count": 2,
+   "links": 1
+  },
+  "damm-capital": {
+   "count": 0,
+   "links": 0
+  },
+  "rocksolid-network": {
+   "count": 0,
+   "links": 0
+  },
+  "rif-on-chain": {
+   "count": 2,
+   "links": 1
+  },
+  "adrastea-validator": {
+   "count": 0,
+   "links": 0
+  },
+  "hyperbeat-earn": {
+   "count": 0,
+   "links": 0
+  },
+  "fluxion-network": {
+   "count": 2,
+   "links": 1
+  },
+  "icarus-cl": {
+   "count": 0,
+   "links": 0
+  },
+  "monarq": {
+   "count": 0,
+   "links": 0
+  },
+  "stellar-amm": {
+   "count": 0,
+   "links": 0
+  },
+  "ultrayield-vaults": {
+   "count": 0,
+   "links": 0
+  },
+  "defindex": {
+   "count": 2,
+   "links": 1
+  },
+  "strata-markets": {
+   "count": 2,
+   "links": 1
+  },
+  "agua": {
+   "count": 2,
+   "links": 1
+  },
+  "growihf": {
+   "count": 0,
+   "links": 0
+  },
+  "katana-pre-launch": {
+   "count": 0,
+   "links": 0
+  },
+  "perena-vaults": {
+   "count": 2,
+   "links": 1
+  },
+  "steer-protocol": {
+   "count": 2,
+   "links": 1
+  },
+  "monolith-market": {
+   "count": 0,
+   "links": 0
+  },
+  "strato-cdp": {
+   "count": 0,
+   "links": 0
+  },
+  "bima-cdp": {
+   "count": 0,
+   "links": 0
+  },
+  "kava-mint": {
+   "count": 2,
+   "links": 1
+  },
+  "defa-by-invoicemate": {
+   "count": 0,
+   "links": 0
+  },
+  "exponent-strategy-vaults": {
+   "count": 2,
+   "links": 1
+  },
+  "temple": {
+   "count": 0,
+   "links": 0
+  },
+  "exponent-risk-tranching": {
+   "count": 2,
+   "links": 1
+  },
+  "syntropia": {
+   "count": 0,
+   "links": 0
+  },
+  "vault-street": {
+   "count": 2,
+   "links": 1
+  },
+  "vesu": {
+   "count": 0,
+   "links": 0
+  },
+  "set-protocol": {
+   "count": 2,
+   "links": 1
+  },
+  "t3tris-finance": {
+   "count": 2,
+   "links": 3
+  },
+  "yieldfi": {
+   "count": 2,
+   "links": 1
+  },
+  "goonfi": {
+   "count": 0,
+   "links": 0
+  },
+  "superearn": {
+   "count": 0,
+   "links": 0
+  },
+  "btcfi-cdp": {
+   "count": 0,
+   "links": 0
+  },
+  "bend": {
+   "count": 2,
+   "links": 1
+  },
+  "qearn": {
+   "count": 0,
+   "links": 0
+  },
+  "vena-finance": {
+   "count": 0,
+   "links": 0
+  },
+  "boros": {
+   "count": 0,
+   "links": 0
+  },
+  "subfrost": {
+   "count": 0,
+   "links": 0
+  },
+  "snuggle": {
+   "count": 2,
+   "links": 1
+  },
+  "granite": {
+   "count": 2,
+   "links": 1
+  },
+  "stablehodl": {
+   "count": 0,
+   "links": 0
+  },
+  "valantis-sthype-restaking": {
+   "count": 2,
+   "links": 1
+  },
+  "swan-dao": {
+   "count": 2,
+   "links": 1
+  },
+  "aftermath-aflp": {
+   "count": 0,
+   "links": 0
+  },
+  "mezzanine": {
+   "count": 2,
+   "links": 1
+  },
+  "flying-tulip-ftusd": {
+   "count": 2,
+   "links": 1
+  },
+  "nucleus": {
+   "count": 2,
+   "links": 1
+  }
+ },
+ "audits_note": "Count of audits listed by DefiLlama per protocol (protocols endpoint, fetched 22 Nov 2026). 0 means none listed, not proven unaudited."
+}

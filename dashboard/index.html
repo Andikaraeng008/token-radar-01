@@ -3,12 +3,75 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Token Radar: pre-token protocols ranked by implied value</title>
+<title>Token Launch Radar — radar-3</title>
 <link rel="stylesheet" href="app.css">
 </head>
 <body>
-<a class="skip" href="#board">Skip to the board</a>
-<main id="board" tabindex="-1" aria-busy="true"></main>
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="kicker">MAKE.FUN TOKEN LAUNCH RADAR &middot; MODEL RADAR-3</p>
+    <h1>Which pre-token protocol is worth farming?</h1>
+    <p class="lede" id="lede">Loading the board&hellip;</p>
+  </div>
+</header>
+
+<main>
+  <section class="model" id="model">
+    <h2>How the ranking works</h2>
+    <p class="formula">implied value = TVL &times; category multiple &times; growth &times; maturity &times; revenue quality</p>
+    <ul>
+      <li><b>TVL &times; category multiple.</b> Each category earns the median market-cap-per-TVL of its protocols that already trade, shrunk toward the overall median 0.17 and bounded 0.10&ndash;1.00. A protocol's size is always the base.</li>
+      <li><b>Growth.</b> Seven-day TVL change, clamped &minus;60% to +120%, at half weight.</li>
+      <li><b>Maturity.</b> 0.60 plus up to 0.40 for up to three years running with no token.</li>
+      <li><b>Revenue quality (0.50&ndash;2.00&times;).</b> Annualized protocol revenue per dollar of TVL, against the category median. Revenue is DefiLlama daily revenue, 30-day and 90-day windows ending <b>14 Nov 2026</b>, the snapshot's own date. Where no revenue is recorded the multiplier is exactly 1.00 &mdash; missing data is never punished.</li>
+      <li><b>Cross-check.</b> Every detail view also shows the revenue-anchored value: annualized revenue &times; the category's P/S multiple, so you can see where the two lenses agree and where they part.</li>
+      <li><b>What revenue cannot do.</b> A protocol with no token has no market cap, no FDV and no unlock schedule to measure &mdash; the implied value <i>is</i> the FDV estimate. Audit counts are shown as a flag, never as a score.</li>
+    </ul>
+    <p class="note" id="model-note"></p>
+  </section>
+
+  <section class="controls">
+    <label>Search <input id="q" type="search" placeholder="protocol, category, chain&hellip;" autocomplete="off"></label>
+    <label>Category <select id="cat"><option value="">All categories</option></select></label>
+    <label>Chain <select id="chain"><option value="">All chains</option></select></label>
+    <label>View
+      <select id="view">
+        <option value="board">Ranked board (pre-token)</option>
+        <option value="live">Live tokens (market value)</option>
+      </select>
+    </label>
+  </section>
+
+  <section class="board-wrap">
+    <table id="board">
+      <thead>
+        <tr>
+          <th data-k="rank">#</th>
+          <th data-k="name">Protocol</th>
+          <th data-k="category">Category</th>
+          <th data-k="chains">Chains</th>
+          <th data-k="tvl_usd" class="num">TVL</th>
+          <th data-k="change_7d" class="num">7d</th>
+          <th data-k="ann_rev_usd" class="num">Ann. revenue</th>
+          <th data-k="rev_per_tvl" class="num">Rev / TVL</th>
+          <th data-k="implied_value_usd" class="num">Implied value</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <p class="count" id="count"></p>
+  </section>
+
+  <section class="foot">
+    <p>Snapshot: DefiLlama, 14 Nov 2026, 758 protocols, watchlist floor $50M. Revenue: DefiLlama daily revenue charts, as of 14 Nov 2026. A board's implied value is this entry's own claim, never make.fun's. It does not predict whether or when a token is issued.</p>
+  </section>
+</main>
+
+<dialog id="detail">
+  <form method="dialog"><button class="close" aria-label="Close">&times;</button></form>
+  <div id="detail-body"></div>
+</dialog>
+
 <script src="../data.js"></script>
 <script src="app.js"></script>
 </body>
